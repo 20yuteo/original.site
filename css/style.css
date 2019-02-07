@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+}
+.title {
+  font-weight: bold;
+}
+.top-image {
+  background-color: black;
+}
+
+.wf-nicomoji {
+  font-family: "Nico Moji";
+  font-size: 120px;
+  background-color:black;
+  color:white;
+}
+
+section{
+  color:black;
+}
+
+.card-text{
+  font-size:25px;
+}
+.h1{
+  display: block;
+  text-align:center;
+}
+
+.circle{
+  color:red;/*背景色*/
+  font-size:100px;
+}
+
+@import 'tools';
+
+.shake-crazy { @include do-shake('shake-crazy', 40, 40, 20, 100ms, .1, $opacity: true); }
+
+.jumbotron-heading :hover{
+  
+}
